@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="carousel-id" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-id" data-slide-to="0" class=""></li>
+            <li data-target="#carousel-id" data-slide-to="1" class=""></li>
+            <li data-target="#carousel-id" data-slide-to="2" class="active"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="item">
+                <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="images/ps_banner01.jpg">
+            </div>
+            <div class="item">
+                <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide" src="images/ps_banner02.jpg">
+            </div>
+            <div class="item active">
+                <img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide" src="images/ps_banner03.jpg">
+            </div>
+        </div>
+        <a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+        <a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div>
+    <div class="mx-product row">
+        <ul class="product-nav row" id="product-nav">
+            <li class="on"><a>强化复合系列</a></li>
+            <li><a>高端水洗系列</a></li>
+            <li><a>立花拼花系列</a></li>
+            <li><a>多层实木系列</a></li>
+            <li><a>实木系列</a></li>
+        </ul>
+        <div class="product-box row" id="product-box">
+            <ul class="product-show row">
+                <li class="col-md-4 col-sm-6 col-xs-12"><img src="images/item01.jpg" alt=""></li>
+                <li class="col-md-4 col-sm-6 col-xs-12"><img src="images/item02.jpg" alt=""></li>
+                <li class="col-md-4 col-sm-6 col-xs-12"><img src="images/item03.jpg" alt=""></li>
+                <li class="col-md-4 col-sm-6 col-xs-12"><img src="images/item04.jpg" alt=""></li>
+                <li class="col-md-4 col-sm-6 col-xs-12"><img src="images/item05.jpg" alt=""></li>
+                <li class="col-md-4 col-sm-6 col-xs-12"><img src="images/item06.jpg" alt=""></li>
+            </ul>
+            <ul class="product-show row ab">
+                <li class="col-md-4 col-sm-6 col-xs-12"><img src="images/item07.jpg" alt=""></li>
+                <li class="col-md-4 col-sm-6 col-xs-12"><img src="images/item08.jpg" alt=""></li>
+                <li class="col-md-4 col-sm-6 col-xs-12"><img src="images/item09.jpg" alt=""></li>
+                <li class="col-md-4 col-sm-6 col-xs-12"><img src="images/item10.jpg" alt=""></li>
+                <li class="col-md-4 col-sm-6 col-xs-12"><img src="images/item11.jpg" alt=""></li>
+                <li class="col-md-4 col-sm-6 col-xs-12"><img src="images/item12.jpg" alt=""></li>
+            </ul>
+            <ul class="product-show row ab">
+                <li class="col-md-4 col-sm-6 col-xs-12"><img src="images/item13.jpg" alt=""></li>
+                <li class="col-md-4 col-sm-6 col-xs-12"><img src="images/item14.jpg" alt=""></li>
+                <li class="col-md-4 col-sm-6 col-xs-12"><img src="images/item15.jpg" alt=""></li>
+                <li class="col-md-4 col-sm-6 col-xs-12"><img src="images/item16.jpg" alt=""></li>
+                <li class="col-md-4 col-sm-6 col-xs-12"><img src="images/item17.jpg" alt=""></li>
+                <li class="col-md-4 col-sm-6 col-xs-12"><img src="images/item18.jpg" alt=""></li>
+            </ul>
+            <ul class="product-show row ab">
+                <li class="col-md-4 col-sm-6 col-xs-12"><img src="images/item19.jpg" alt=""></li>
+                <li class="col-md-4 col-sm-6 col-xs-12"><img src="images/item20.jpg" alt=""></li>
+                <li class="col-md-4 col-sm-6 col-xs-12"><img src="images/item21.jpg" alt=""></li>
+                <li class="col-md-4 col-sm-6 col-xs-12"><img src="images/item22.jpg" alt=""></li>
+                <li class="col-md-4 col-sm-6 col-xs-12"><img src="images/item23.jpg" alt=""></li>
+                <li class="col-md-4 col-sm-6 col-xs-12"><img src="images/item24.jpg" alt=""></li>
+            </ul>
+            <ul class="product-show row ab">
+                <li class="col-md-4 col-sm-6 col-xs-12"><img src="images/item25.jpg" alt=""></li>
+                <li class="col-md-4 col-sm-6 col-xs-12"><img src="images/item26.jpg" alt=""></li>
+                <li class="col-md-4 col-sm-6 col-xs-12"><img src="images/item27.jpg" alt=""></li>
+                <li class="col-md-4 col-sm-6 col-xs-12"><img src="images/item28.jpg" alt=""></li>
+                <li class="col-md-4 col-sm-6 col-xs-12"><img src="images/item29.jpg" alt=""></li>
+                <li class="col-md-4 col-sm-6 col-xs-12"><img src="images/item30.jpg" alt=""></li>
+            </ul>
+        </div>
+        
+
+    </div>
+    <script>
+         $("#product-nav li").click(function(){
+       
+       $(this).addClass("on").siblings().removeClass("on");
+       $("#product-box>ul").eq($(this).index()).show().siblings().hide();
+       // $("#product-box>ul").eq($(this).index()).removeClass("ab").siblings().addClass("ab");
+   })
+    </script>  
+</body>
+</html>

@@ -1,0 +1,134 @@
+/*-------base标签样式设置----- */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #333;
+    font-family: -apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+ul {
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+}
+
+input {
+    box-sizing: border-box;
+}
+
+
+/* -------布局效果------ */
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tc {
+    text-align: center;
+}
+
+.fl {
+    float: left;
+}
+
+/* -------布局12等分------ */
+[class^='col'] {
+    float: left;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col-1 {
+    width: 8.33333333%;
+}
+
+.col-2 {
+    width: 16.66666667%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33333333%;
+}
+
+.col-5 {
+    width: 41.66666667%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33333333%;
+}
+
+.col-8 {
+    width: 66.66666667%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33333333%;
+}
+
+.col-11 {
+    width: 91.66666667%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/* -------divide------- */
+.totally {
+    width: 100%;
+}
+
+.half {
+    width: 50%;
+}
+
+.quarter {
+    width: 25%;
+}
+
+.one-fifth {
+    width: 20%;
+}
+
+.one-seventh {
+    width: 14.28571428%;
+}
+
+.border {
+    border: 1px solid black;
+}

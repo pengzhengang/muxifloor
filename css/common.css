@@ -1,0 +1,52 @@
+.mx-container {
+    width: 80%;
+    height: 10%;
+    margin: 0 auto;
+}
+
+.g {
+    color: #2dae36;
+}
+.fsb {
+    font-size: 20px;
+}
+.ti2 {
+    text-indent: 2em;
+}
+.footer {
+    /* position: absolute; */
+    /* bottom: 0; */
+    width: 100%;
+    /* margin-top: 50px; */
+    background: rgb(221, 221, 221);
+}
+.footer li {
+    list-style: none;
+    float: left;
+}
+
+.footer p {
+    clear: both;
+    font-size: 13px;
+}
+.footer img {
+    width: 120px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+#about {
+    text-align: center;
+}
+#about ul {
+    margin-top: 35px;
+    line-height: 30px;
+}
+#about li {
+    margin-left: 100px;
+}
+#contact {
+    margin-top: 20px;
+    line-height: 25px;
+}
+

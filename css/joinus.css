@@ -1,0 +1,28 @@
+.g-border {
+    border-bottom: 1px solid #2dae36;
+}
+.mx-joinus {
+    /* border: 1px solid black; */
+    width: 100%;
+    padding: 60px 12%;
+    margin: 0 auto;
+    /* height: 250px; */
+}
+.mx-joinus div:first-child p:first-of-type{
+    margin-top: 40px;
+    font-size: 30px;
+    /* font-weight: bold; */
+}
+.mx-joinus img {
+    float: left;
+    margin-top: 20px;
+}
+
+#condition {
+    background-color: rgb(249, 249, 249);
+    border-bottom: 1px dashed #2dae36;
+}
+#policy {
+    background-color: rgb(249, 249, 249);
+    border-top: 1px dashed #2dae36;
+}

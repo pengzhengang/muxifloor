@@ -1,0 +1,111 @@
+
+@import "aboutus.css";
+@import "productshow.css";
+@import "joinus.css";
+@import "contactus.css";
+/* ------------导航------------ */
+.mx-nav {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#logo {
+    display: inline-block;
+    width: 241px;
+    height: 80px;
+}
+
+#navbar {
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+}
+
+.navbar-header>a {
+    display: inline-block;
+    width: 241px;
+    height: 80px;
+    background: url("../images/logo0.png") no-repeat center center;
+}
+
+/* #nav-right li:first-of-type a {
+    border-bottom: 2px solid #2dae36;
+} */
+.select {
+    border-bottom: 2px solid #2dae36;
+}
+#nav-right a {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+}
+/* #nav-right a:hover {
+    border-bottom: 2px solid #2dae36;
+} */
+
+.mx-nav .navbar-default .navbar-toggle .icon-bar {
+    background-color: #2dae36;
+}
+
+.mx-nav .navbar-default .navbar-toggle {
+    border-color: #2dae36;
+    margin: 23px auto;
+}
+
+.mx-nav .navbar {
+    border: none;
+}
+
+/* -------------轮播图开始------------ */
+.carousel-indicators .active {  
+    background-color: #2dae36 !important;
+}
+
+/* -------------企业精神开始----------- */
+#spirit>h3 {
+    margin-top: 50px;
+    text-align: center;
+}
+#spirit img {
+    width: 60px;
+    height: 60px;
+    margin-top: 30px;
+}
+#spirit>div h3 {
+    margin-top: 15px;
+    color: #2dae36;
+}
+#spirit>div p {
+    line-height: 25px;
+} 
+/* -------------产品展示--------- */
+
+.chanpin {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #2dae36;
+    font-size: 20px;
+    border-radius: 20px 0;
+    color: #fff;
+    margin-top: 40px;
+}
+
+#show img {
+    width: 95%;
+    margin-top: 25px;
+}
+
+.border-g {
+    border-top: 2px solid #2dae36;
+}
+
+#show>div:nth-of-type(2) img {
+    margin-left: 10px;
+}
+
+#show div:last-child img {
+    float: right;
+}
+#show {
+    margin-bottom: 50px;
+}

@@ -1,0 +1,29 @@
+.call {
+    height: 250px;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: bold;
+}
+.call img {
+    position: relative;
+    top: -10px;
+}
+.call span {font-size: 35px;}
+.mx-contact {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact-all {
+    margin-top: 50px;
+    padding: 0 20px;
+    border-left: 1px solid #2dae36;
+}
+
+.contactus iframe {
+    height: 318px;
+    width: 100%;
+    border: none;
+    border-top: 1px solid #2dae36;
+    border-bottom: 1px solid #2dae36;
+}

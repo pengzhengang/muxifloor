@@ -1,0 +1,36 @@
+@media(min-width: 768px) {
+    #nav-right {
+        float: right !important;
+    }
+    
+}
+
+
+@media(max-width: 768px) {
+    #nav-right li a {
+        line-height: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        /* float: left; */
+    }
+    #logo {
+        width: 80px;
+        height: 80px;
+        padding: 8px;
+        background: url("../images/logo1.png") no-repeat center center;
+        background-size: contain;
+    }
+    #about li {
+        float: none;
+        margin-left: 0;
+    }
+    #about {
+        text-align: left !important;
+    }
+    img {
+        margin-left: 0 !important;
+    }
+    #show div:last-child img {
+        float: none !important;
+    }
+}
